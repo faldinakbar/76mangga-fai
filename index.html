@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>76 Mangga</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="logo">
+            <img src="assets/logo/logo.png">
+        </div>
+        <div class="navigation" id="navigation">
+            <a href="#nav">Home</a>
+            <a href="#isi">Isi</a>
+            <a href="#rasa">Rasa</a>
+            <a href="#tentang">Tentang</a>
+        </div>
+        <i class='bx bx-menu' id="menuToggle" onclick="menuToggle()" style="color: #ffffff;"></i>
+    </nav>
+
+    <section class="content" id="content">
+        <div class="contentLeft" data-aos="fade-right" data-aos-duration="2000">
+            <h1>DJARUM 76<br>MANGGA</h1>
+            <p>Djarum 76 Mangga adalah rokok unik dengan perpaduan<br> tembakau berkualitas dan sensasi segar rasa
+                mangga yang eksotis<br> dan memikat.</p>
+            <button><a href="#isi">Lihat Selengkapnya</a></button>
+        </div>
+        <div class="contentRight" data-aos="fade-left" data-aos-duration="2000">
+            <img src="assets/content/rokokFront.png">
+        </div>
+    </section>
+
+    <section class="isi" id="isi">
+        <div class="isiLeft" data-aos="fade-right" data-aos-duration="2000">
+            <h1 class="previewTitle">
+                Preview
+            </h1>
+            <div class="boxOfIsi">
+                <div class="mainIsiTop">
+                    <div class="isi1">1</div>
+                    <div class="isi2">2</div>
+                    <div class="isi3">3</div>
+                    <div class="isi4">4</div>
+                    <div class="isi5">5</div>
+                    <div class="isi6">6</div>
+                </div>
+                <div class="mainIsiBottom">
+                    <div class="isi7">7</div>
+                    <div class="isi8">8</div>
+                    <div class="isi9">9</div>
+                    <div class="isi10">10</div>
+                    <div class="isi11">11</div>
+                    <div class="isi12">12</div>
+                </div>
+            </div>
+            <div class="preview">
+                <div class="preview1">
+
+                </div>
+                <div class="preview2" id="rokok2">
+
+                </div>
+                <div class="shutOffBtn">
+                    <button id="shutOff" style="transition: opacity 1.2s ease-in-out;">Matikan</button>
+                </div>
+            </div>
+        </div>
+        <div class="isiRight">
+            <h1 data-aos="fade-left" data-aos-duration="2000">ISI</h1>
+            <p data-aos="fade-up" data-aos-duration="2000">DJARUM 76 Mangga memiliki isi sebanyak 12 batang <br>dengan kepadatan dan ukuran yang sama. Setiap
+                batang<br>berisi tembakau pilihan Indonesia. Tembakau tersebut merupakan<br> komponen utama yang menjaga
+                cita rasa khas rokok kretek Indonesia,<br> disertai cengkeh untuk aroma yang khas.</p>
+        </div>
+    </section>
+
+    <section class="rasa" id="rasa">
+        <div class="rasaLeft" data-aos="fade-up" data-aos-duration="1500">
+            <h1>Rasa</h1>
+            <p>Rokok Djarum 76 Mangga menghadirkan pengalaman merokok yang unik <br>dengan kombinasi rasa tembakau
+                kretek tradisional yang kaya, dipadukan dengan manis dan<br> segarnya buah mangga. Perpaduan ini
+                menciptakan sensasi eksotis yang memanjakan lidah, cocok <br>bagi pecinta rasa berani dan berbeda.</p>
+            <h2>Kandungan:</h2>
+            <ol>
+                <li>NIKOTIN: 2.3mg</li>
+                <li>TAR: 37mg</li>
+            </ol>
+        </div>
+        <div class="rasaRight" data-aos="fade-in" data-aos-duration="1000">
+            <img src="assets/content/mangga_transparent.png">
+        </div>
+    </section>
+
+    <section class="about" id="tentang">
+        <div class="leftAbout" data-aos="fade-right" data-aos-duration="2000">
+            <img src="assets/logo/logo.png">
+        </div>
+        <div class="rightAbout">
+            <h1 style="font-size: 4rem; text-align: end;" data-aos="fade-left" data-aos-duration="2000">Tentang</h1>
+            <p style="font-size: 1.4rem; text-align: start; color: #ffffff;" data-aos="fade-up" data-aos-duration="2000">Kami, Djarum, didirikan pada 1951 di
+                Indonesia, adalah produsen rokok kretek terkemuka. Kami dikenal dengan inovasi dalam rasa dan kualitas
+                produk, serta berkomitmen pada keberagaman dan kegiatan sosial serta budaya di Indonesia.</p>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footerBox">
+            <div class="footerTop">
+                <a href="#nav">Home</a>
+                <a href="#isi">Isi</a>
+                <a href="#rasa">Rasa</a>
+                <a href="#tentang">Tentang</a>
+            </div>
+            <div class="footerBottom">
+                <p>Copyright ©2024 Design by<span>FALDIN AKBAR IMANI</span></p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- JEES -->
+    <script>
+        AOS.init();
+    </script>
+    <script src="styles/script.js" type="text/javascript"></script>
+</body>
+
+</html>
