@@ -66,11 +66,13 @@ nav {
     color: #ffffff;
     font-size: 4rem;
     margin-bottom: 0;
+    padding: 0 10px;
 }
 
 .content p {
     color: #ffffff;
     font-size: 1.2rem;
+    padding: 0 10px;
 }
 
 .content button {
