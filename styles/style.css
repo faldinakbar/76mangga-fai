@@ -571,6 +571,12 @@ nav {
     .footerTop a {
         font-size: 12px;
     }
+    .content h1 {
+        font-size: 2rem;
+    }
+    .content p {
+    font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 1024px) {
